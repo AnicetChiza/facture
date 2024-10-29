@@ -1,0 +1,68 @@
+/* ------------------ /
+#Reset
+/ ------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* ------------------ /
+#General
+/ ------------------ */
+
+body {
+    font-size: 16px;
+    font-family: "Sulphur Point", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", serif;
+}
+
+
+/* ------------------ /
+#Section
+/ ------------------ */
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ------------------ /
+#Container
+/ ------------------ */
+
+.container {
+    width: 50%;
+    border: 1px solid #1b1b1b23;
+}
+
+.head {
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head img {
+    width: 150px;
+    height: 100px;
+}
+
+.facture {
+    padding: 20px 20px;
+}
