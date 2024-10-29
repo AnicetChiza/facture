@@ -108,3 +108,23 @@ section {
     margin-top: 20px;
     -webkit-column-gap: 10px;
 }
+
+
+/* ------------------ /
+#Table
+/ ------------------ */
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table thead {
+    color: #fff;
+    background-color: #3c8cc9;
+}
+
+table thead th {
+    text-align: left;
+    padding: 8px 15px;
+}
