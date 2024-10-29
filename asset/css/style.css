@@ -137,3 +137,26 @@ tbody tr td {
 tbody tr:nth-child(even) {
     background-color: #eaeaea69;
 }
+
+
+/* ------------------ /
+#Total
+/ ------------------ */
+
+.total-result .total {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+    justify-content: center;
+}
+
+.total-result .total div {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 15px;
+    -webkit-column-gap: 10px;
+    justify-content: center;
+    background-color: #eaeaea69;
+}
