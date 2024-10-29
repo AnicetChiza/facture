@@ -63,6 +63,16 @@ section {
     height: 100px;
 }
 
+
+/* ------------------ /
+#facture
+/ ------------------ */
+
 .facture {
-    padding: 20px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #1b1b1b23;
 }
