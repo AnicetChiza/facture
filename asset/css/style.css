@@ -16,6 +16,7 @@
 
 body {
     font-size: 16px;
+    padding: 30px 30px;
     font-family: "Sulphur Point", serif;
 }
 
@@ -46,7 +47,7 @@ section {
 / ------------------ */
 
 .container {
-    width: 50%;
+    width: 45%;
     border: 1px solid #1b1b1b23;
 }
 
@@ -143,20 +144,35 @@ tbody tr:nth-child(even) {
 #Total
 / ------------------ */
 
-.total-result .total {
+.total-result {
     display: flex;
+    justify-content: flex-end;
+}
+
+.total-result .total {
+    width: 100%;
+    display: flex;
+    flex-direction: ;
     margin-top: 20px;
-    gap: 20px;
-    -webkit-column-gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: flex-end;
 }
 
 .total-result .total div {
     display: flex;
     gap: 10px;
-    width: 100%;
     padding: 10px 15px;
     -webkit-column-gap: 10px;
-    justify-content: center;
-    background-color: #eaeaea69;
+    border: 1px solid #1b1b1b23;
+}
+
+.final-total {
+    color: #fff;
+    border: 1px solid #3c8cc9;
+    background-color: #3c8cc9;
+}
+
+.condition {
+    margin-top: 25px;
 }
