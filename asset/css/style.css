@@ -129,3 +129,7 @@ table thead th {
     text-align: left;
     padding: 8px 15px;
 }
+
+tbody tr td {
+    padding: 8px 15px;
+}
