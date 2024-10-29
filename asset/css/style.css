@@ -76,3 +76,35 @@ section {
     padding-top: 20px;
     border-top: 1px solid #1b1b1b23;
 }
+
+.company-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.specific-info {
+    padding: 15px 20px;
+    border: 1px solid #1b1b1b23;
+}
+
+.specific-info div {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    -webkit-column-gap: 10px;
+}
+
+.client {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    -webkit-column-gap: 10px;
+}
