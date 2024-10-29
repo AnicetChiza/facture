@@ -117,11 +117,12 @@ section {
 table {
     width: 100%;
     margin-top: 20px;
+    border-collapse: collapse;
 }
 
 table thead {
-    color: #fff;
-    background-color: #3c8cc9;
+    color: #3c8cc9;
+    background-color: #eaeaea69;
 }
 
 table thead th {
