@@ -38,7 +38,11 @@ section {
     /* height: 100vh; */
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px 20px;
 }
 
 
@@ -47,7 +51,7 @@ section {
 / ------------------ */
 
 .container {
-    width: 45%;
+    width: 100%;
     border: 1px solid #1b1b1b23;
 }
 
@@ -212,4 +216,26 @@ tbody tr:nth-child(even) {
 
 .footer .footer-item a {
     color: #3c8cc9;
+}
+
+
+/* ------------------ /
+#Download
+/ ------------------ */
+
+.download {
+    margin-top: 20px;
+}
+
+.download button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #3c8cc9;
+    font-family: "Raleway", serif;
 }
