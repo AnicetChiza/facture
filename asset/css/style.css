@@ -34,14 +34,15 @@ h6 {
 #Section
 / ------------------ */
 
-.general-section {
+#invoice-section {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 20px 20px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    /* padding-left: 400px;
+    padding-right: 400px; */
 }
 
 
@@ -50,7 +51,7 @@ h6 {
 / ------------------ */
 
 .container {
-    width: 100%;
+    width: 45%;
     border: 1px solid #1b1b1b23;
 }
 
@@ -222,11 +223,11 @@ tbody tr:nth-child(even) {
 #Download
 / ------------------ */
 
-.download {
+.print {
     margin-top: 20px;
 }
 
-.download button {
+.print button {
     border: none;
     outline: none;
     color: #fff;
@@ -237,4 +238,17 @@ tbody tr:nth-child(even) {
     text-transform: uppercase;
     background-color: #3c8cc9;
     font-family: "Raleway", serif;
+}
+
+@media print {
+    .print {
+        display: none;
+    }
+    body {
+        margin: 0;
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+    }
 }
