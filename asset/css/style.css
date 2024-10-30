@@ -34,8 +34,7 @@ h6 {
 #Section
 / ------------------ */
 
-section {
-    /* height: 100vh; */
+.general-section {
     display: flex;
     align-items: center;
     flex-direction: column;
