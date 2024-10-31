@@ -52,6 +52,8 @@ h6 {
 
 .container {
     width: 55%;
+    overflow: auto;
+    box-sizing: border-box;
     border: 1px solid #1b1b1b23;
 }
 
@@ -123,6 +125,7 @@ table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    box-sizing: border-box;
 }
 
 table thead {
@@ -140,8 +143,13 @@ tbody tr td input {
     outline: none;
     background: unset;
     padding: 8px 15px;
-    width: fit-content;
-    border: 1px solid gray;
+    width: 100%;
+    font-family: "Sulphur Point", serif;
+    border-left: 1px solid #1b1b1b23;
+}
+
+.number {
+    width: 7%;
 }
 
 tbody tr:nth-child(even) {
