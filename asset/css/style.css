@@ -157,6 +157,14 @@ tbody tr td input {
     width: 5%;
 }
 
+.quantity {
+    width: 8%;
+}
+
+.total {
+    width: 16%;
+}
+
 tbody tr:nth-child(even) {
     background-color: #eaeaea69;
 }
