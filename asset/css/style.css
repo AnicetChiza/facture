@@ -251,6 +251,9 @@ tbody tr:nth-child(even) {
 
 .print {
     margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
 }
 
 .print button {

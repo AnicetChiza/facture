@@ -1,4 +1,4 @@
 // download.js
-document.querySelector('.print button').addEventListener('click', function () {
+document.querySelector('.print-btn').addEventListener('click', function () {
     window.print();
 });
