@@ -136,6 +136,11 @@ table thead {
 table thead th {
     text-align: left;
     padding: 8px 15px;
+    border: 1px solid #1b1b1b23;
+}
+
+tbody tr td {
+    border: 1px solid #1b1b1b23;
 }
 
 tbody tr td input {
@@ -144,12 +149,12 @@ tbody tr td input {
     background: unset;
     padding: 8px 15px;
     width: 100%;
+    text-align: left;
     font-family: "Sulphur Point", serif;
-    border-left: 1px solid #1b1b1b23;
 }
 
 .number {
-    width: 7%;
+    width: 5%;
 }
 
 tbody tr:nth-child(even) {
