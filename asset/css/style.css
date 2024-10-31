@@ -135,8 +135,13 @@ table thead th {
     padding: 8px 15px;
 }
 
-tbody tr td {
+tbody tr td input {
+    border: none;
+    outline: none;
+    background: unset;
     padding: 8px 15px;
+    width: fit-content;
+    border: 1px solid gray;
 }
 
 tbody tr:nth-child(even) {
