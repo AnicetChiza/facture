@@ -98,15 +98,31 @@ h6 {
 }
 
 .specific-info {
-    padding: 15px 20px;
+    width: 45%;
+    padding: 0px 20px;
     border: 1px solid #1b1b1b23;
 }
 
-.specific-info div {
+.specific-info form div {
     display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1b1b1b23;
+    /* display: flex;
     gap: 10px;
     font-size: 15px;
+    flex-direction: row;
+    align-items: center;
     -webkit-column-gap: 10px;
+     */
+}
+
+.specific-info div input {
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-family: "Sulphur Point", serif;
 }
 
 .client {
