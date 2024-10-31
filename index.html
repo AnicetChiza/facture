@@ -64,7 +64,7 @@
 
                 <div class="client">
                     <span>Client:</span>
-                    <h4>Gloire NDAISABA</h4>
+                    <input type="text" placeholder="Entrer le nom du client">
                 </div>
 
                 <div class="table">
@@ -86,7 +86,7 @@
                                 <td><input type="text"></td>
                                 <td><input type="number" class="input-quantity"></td>
                                 <td><input type="number" class="input-price"></td>
-                                <td><input type="text" value="18%" readonly></td>
+                                <td><input type="text" class="input-tva" value="18%"></td>
                                 <td><input type="number" class="input-total" readonly></td>
                             </tr>
                             <tr>
@@ -94,7 +94,7 @@
                                 <td><input type="text"></td>
                                 <td><input type="number" class="input-quantity"></td>
                                 <td><input type="number" class="input-price"></td>
-                                <td><input type="text" value="18%" readonly></td>
+                                <td><input type="text" class="input-tva" value="18%"></td>
                                 <td><input type="number" class="input-total" readonly></td>
                             </tr>
                             <tr>
@@ -102,7 +102,7 @@
                                 <td><input type="text"></td>
                                 <td><input type="number" class="input-quantity"></td>
                                 <td><input type="number" class="input-price"></td>
-                                <td><input type="text" value="18%" readonly></td>
+                                <td><input type="text" class="input-tva" value="18%"></td>
                                 <td><input type="number" class="input-total" readonly></td>
                             </tr>
                             <tr>
@@ -110,7 +110,7 @@
                                 <td><input type="text"></td>
                                 <td><input type="number" class="input-quantity"></td>
                                 <td><input type="number" class="input-price"></td>
-                                <td><input type="text" value="18%" readonly></td>
+                                <td><input type="text" class="input-tva" value="18%"></td>
                                 <td><input type="number" class="input-total" readonly></td>
                             </tr>
                         </tbody>
@@ -120,13 +120,17 @@
 
                 <div class="total-result">
                     <div class="total">
-                        <div>
+                        <div class="unit-price">
                             <p>Total HT:</p>
-                            <span>9000.00$</span>
+                            <span class="unit-price-span">0.00$</span>
+                        </div>
+                        <div class="final-tva">
+                            <p>Total TVA:</p>
+                            <span class="final-tva-span">0.00$</span>
                         </div>
                         <div class="final-total">
                             <p>Total TTC:</p>
-                            <span>9000.00$</span>
+                            <span class="final-total-span">0.00$</span>
                         </div>
                     </div>
                 </div>

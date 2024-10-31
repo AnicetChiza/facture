@@ -111,9 +111,21 @@ h6 {
 
 .client {
     display: flex;
-    gap: 10px;
+    /* gap: 5px; */
+    align-items: center;
     margin-top: 20px;
-    -webkit-column-gap: 10px;
+    width: 35%;
+    border-bottom: 1px solid #1b1b1b23;
+    /* -webkit-column-gap: 5px; */
+}
+
+.client input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    width: 100%;
+    font-family: "Raleway", serif;
 }
 
 
@@ -279,5 +291,8 @@ tbody tr:nth-child(even) {
     }
     .container {
         width: 100%;
+    }
+    .client {
+        border-bottom: none;
     }
 }
