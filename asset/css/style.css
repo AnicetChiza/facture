@@ -154,7 +154,7 @@ tbody tr td input {
 }
 
 .number {
-    width: 5%;
+    width: 8%;
 }
 
 .quantity {
@@ -162,7 +162,7 @@ tbody tr td input {
 }
 
 .total {
-    width: 16%;
+    width: 14%;
 }
 
 tbody tr:nth-child(even) {
