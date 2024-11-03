@@ -1,0 +1,335 @@
+/* ------------------ /
+#Reset
+/ ------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* ------------------ /
+#General
+/ ------------------ */
+
+body {
+    font-size: 16px;
+    padding: 30px 30px;
+    font-family: "Sulphur Point", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", serif;
+}
+
+
+/* ------------------ /
+#Section
+/ ------------------ */
+
+#invoice-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ------------------ /
+#Container
+/ ------------------ */
+
+.container {
+    width: 55%;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 1px solid #1b1b1b23;
+}
+
+.head {
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head h2 {
+    font-size: 25px;
+    color: #3c8cc9;
+}
+
+.head img {
+    width: 200px;
+    height: 130px;
+}
+
+
+/* ------------------ /
+#facture
+/ ------------------ */
+
+.facture {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #1b1b1b23;
+}
+
+.company-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.specific-info {
+    width: 45%;
+    padding: 0px 20px;
+    border: 1px solid #1b1b1b23;
+}
+
+.specific-info form div {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    border-bottom: 1px solid #1b1b1b23;
+}
+
+.specific-info div span {
+    font-weight: 700;
+    font-family: "Raleway", serif;
+}
+
+.specific-info div input {
+    border: none;
+    outline: none;
+    width: 60%;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 65%;
+    border-bottom: 1px solid #1b1b1b23;
+}
+
+.client input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    width: 100%;
+    font-family: "Raleway", serif;
+}
+
+
+/* ------------------ /
+#Table
+/ ------------------ */
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+table thead {
+    color: #3c8cc9;
+    background-color: #eaeaea69;
+}
+
+table thead th {
+    text-align: left;
+    padding: 6px 15px;
+    border: 1px solid #1b1b1b23;
+}
+
+tbody tr td {
+    border: 1px solid #1b1b1b23;
+}
+
+tbody tr td input {
+    border: none;
+    outline: none;
+    background: unset;
+    padding: 6px 15px;
+    width: 100%;
+    text-align: left;
+    font-family: "Sulphur Point", serif;
+}
+
+.number {
+    width: 8%;
+}
+
+.quantity {
+    width: 8%;
+}
+
+.total {
+    width: 14%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eaeaea69;
+}
+
+
+/* ------------------ /
+#Total
+/ ------------------ */
+
+.total-result {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-result .total {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: flex-end;
+}
+
+.total-result .total div {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    padding: 8px 15px;
+    -webkit-column-gap: 10px;
+    border: 1px solid #1b1b1b23;
+}
+
+.final-total {
+    color: #fff;
+    border: 1px solid #3c8cc9;
+    background-color: #3c8cc9;
+}
+
+.condition {
+    margin-top: 10px;
+}
+
+.condition textarea {
+    width: 100%;
+    height: 70px;
+    outline: none;
+    padding: 15px 20px;
+    border: 1px solid #1b1b1b23;
+    font-family: "Sulphur Point", serif;
+}
+
+.footer {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    -webkit-column-gap: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #1b1b1b23;
+}
+
+.footer .footer-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    -webkit-column-gap: 5px;
+}
+
+.footer .footer-item div {
+    display: flex;
+}
+
+.footer .footer-item i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    color: #3c8cc9;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #1b1b1b23;
+}
+
+.footer .footer-item a {
+    color: #3c8cc9;
+}
+
+
+/* ------------------ /
+#Download
+/ ------------------ */
+
+.print {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-column-gap: 5px;
+}
+
+.print button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #3c8cc9;
+    font-family: "Raleway", serif;
+}
+
+@media print {
+    .print {
+        display: none;
+    }
+    body {
+        margin: 0;
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+    }
+    .client {
+        border-bottom: none;
+    }
+    .specific-info form div {
+        border-bottom: none;
+    }
+    .condition textarea {
+        border: none;
+        padding: 0px 0px;
+        background: unset;
+    }
+}
