@@ -84,36 +84,26 @@
     background-color: #3c8cc9
 }
 
-.login-section .login-form input,
-select {
+.login-section .login-form input {
     border: none;
     outline: none;
     background: unset;
     font-family: "Sulphur Point", serif;
 }
 
-.login-section .forgot-password {
+.login-section .error {
     display: flex;
     margin-top: 10px;
+    /* display: none; */
+    flex-direction: column;
     justify-content: flex-end;
 }
 
-.login-section .forgot-password a {
-    color: #3c8cc9;
+.login-section .error span {
+    color: #ce5050;
     font-size: 14px;
-}
-
-.login-section .create-account {
-    display: flex;
-    gap: 4px;
-    font-size: 14px;
-    margin-top: 20px;
-    justify-content: center;
-    -webkit-column-gap: 4px;
-}
-
-.login-section .create-account a {
-    color: #3c8cc9;
+    text-align: right;
+    display: none;
 }
 
 
