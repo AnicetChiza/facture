@@ -1,0 +1,21 @@
+{
+    "short_name": "MonApp",
+    "name": "Mon Application Web",
+    "icons": [
+      {
+        "src": "/images/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3c8cc9"
+  }
+  
