@@ -333,3 +333,39 @@ tbody tr:nth-child(even) {
         background: unset;
     }
 }
+
+@media screen and (max-width: 1270px){
+    .container {
+        width: 70%;
+    }
+    .print{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .container {
+        width: 90%;
+    }
+    .print{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 855px){
+    body{
+        padding: 15px 15px;
+    }
+    .facture {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+    }
+    .container {
+        width: 100%;
+    }
+    .print{
+        width: 100%;
+    }
+}
