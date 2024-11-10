@@ -1,182 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Connexion</title>
 
     <!-- Style css-->
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/connexion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- Font family-->
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sulphur+Point:wght@300;400;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-
 </head>
-
 <body>
-
-    <section id="invoice-section">
-        <div class="container">
-            <div class="head">
-                <div>
-                    <h2>Facture</h2>
-                </div>
-                <div class="logo">
-                    <img src="asset/images/logooo.jpeg" alt="">
-                </div>
-            </div>
-
-            <div class="facture">
-                <div class="company-info">
-                    <div class="personal-info">
-                        <h4 style="color: #3c8cc9;">GENERAL CONSULTING GROUP LTD.</h4>
-                        <p>Bank name: BPR BANK</p>
-                        <p>BIC/SWIFT CODE: BPRWRWRW</p>
-                        <p>Account number: <span style="color: #3c8cc9;">4492403019</span></p>
-                        <p>TIN: <span style="color: #3c8cc9;">122882138</span></p>
-                        <span>KN4 Av, Kigali-Rwanda</span>
-                        <span>K-Freezone</span>
-                    </div>
-                    <div class="specific-info">
-                        <form action="">
-                            <div>
-                                <p>Date :</p>
-                                <input type="date" id="date1">
-                            </div>
-                            <div>
-                                <p>No. de facture :</p>
-                                <span id="invoice-number">2024-001</span>
-                            </div>
-                            <div>
-                                <p>Échéance :</p>
-                                <input type="date" id="date2">
-                            </div>
-
-                            <div>
-                                <p>Heure :</p>
-                                <input type="time" id="time">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="client">
-                    <span>Client:</span>
-                    <input type="text" placeholder="Entrer le nom du client">
-                </div>
-
-                <div class="table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th style="text-align: center;" class="number">#</th>
-                                <th>Description</th>
-                                <th class="quantity">Quantité</th>
-                                <th class="total">HT</th>
-                                <th class="total">%TVA</th>
-                                <th class="total">Total TTC</th>
-                            </tr>
-                        </thead>
-
-                        <tbody id="table-body">
-                            <tr>
-                                <td style="text-align: center;">01</td>
-                                <td><input type="text"></td>
-                                <td><input type="number" class="input-quantity"></td>
-                                <td><input type="number" class="input-price"></td>
-                                <td><input type="text" class="input-tva" value="18%"></td>
-                                <td><input type="number" class="input-total" readonly></td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;">02</td>
-                                <td><input type="text"></td>
-                                <td><input type="number" class="input-quantity"></td>
-                                <td><input type="number" class="input-price"></td>
-                                <td><input type="text" class="input-tva" value="18%"></td>
-                                <td><input type="number" class="input-total" readonly></td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;">03</td>
-                                <td><input type="text"></td>
-                                <td><input type="number" class="input-quantity"></td>
-                                <td><input type="number" class="input-price"></td>
-                                <td><input type="text" class="input-tva" value="18%"></td>
-                                <td><input type="number" class="input-total" readonly></td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;">04</td>
-                                <td><input type="text"></td>
-                                <td><input type="number" class="input-quantity"></td>
-                                <td><input type="number" class="input-price"></td>
-                                <td><input type="text" class="input-tva" value="18%"></td>
-                                <td><input type="number" class="input-total" readonly></td>
-                            </tr>
-                        </tbody>
-
-                    </table>
-                </div>
-
-                <div class="total-result">
-                    <div class="total">
-
-                        <div class="unit-price">
-                            <p>Total HT:</p>
-                            <span class="unit-price-span">0.00$</span>
-                        </div>
-                        <div class="final-tva">
-                            <p>Total TVA:</p>
-                            <span class="final-tva-span">0.00$</span>
-                        </div>
-                        <div class="final-total">
-                            <p>Total TTC:</p>
-                            <span class="final-total-span">0.00$</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="condition">
-                    <form action="">
-                        <textarea name="" id="">À régler par carte ou virement bancaire avant le 30/11/2024. En cas de retard de paiement, de paiement partiel ou de non-paiement total d'une facture à la date définie dans ce document, merci de bien vouloir nous en informer.</textarea>
-                    </form>
-                </div>
-
-                <div class="footer">
-                    <div class="footer-item">
+    
+    <section class="login-section">
+        <div class="login-content">
+            <div class="login-form">
+                <h3>Login</h3>
+                <form action="">
+                    <div class="inputs">
                         <i class="bi bi-envelope"></i>
-                        <a href="mailto:contact@generalconsultinggroups.com">contact@generalconsultinggroups.com</a>
+                        <input type="email" placeholder="Enter your email">
                     </div>
-                    <div class="footer-item">
-                        <i class="bi bi-globe"></i>
-                        <a href="https://www.generalconsultinggroup.com" target="_blank">www.generalconsultinggroup.com</a>
+                    <div class="inputs">
+                        <i class="bi bi-key"></i>
+                        <input type="password" placeholder="Enter your password">
                     </div>
-                    <div class="footer-item">
-                        <i class="bi bi-telephone"></i>
-                        <a href="tel:0796129284">0796129284, 0728231090</a>
+                    <div class="forgot-password">
+                        <a href="user-forgotpassword.html">Forgot password?</a>
                     </div>
-                </div>
+                    <div class="input-submit">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="create-account">
+                        <p>Don't have an account?</p>
+                        <a href="user-signup.html">Sign up</a>
+                    </div>
+                </form>
             </div>
-        </div>
-
-        <div class="print">
-            <button class="update">Update la facture</button>
-            <button id="add-row">Ajouter une ligne</button>
-            <button class="reset-row">Supprimer une ligne</button>
-            <button class="print-btn">Imprimer la facture</button>
-            <button type="button" onclick="generateInvoiceNumber()">Générer le numéro de facture</button>
-            <button type="button" onclick="resetInvoiceNumber()">Réinitialiser le numéro de facture</button>
         </div>
     </section>
 
-
-    <!-- javascript -->
-    <script src="asset/javascript/app.js"></script>
-
 </body>
-
 </html>

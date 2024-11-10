@@ -1,0 +1,161 @@
+/* ------------------ /
+#Reset
+/ ------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* ------------------ /
+#Login section
+/ ------------------ */
+.login-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section .login-content {
+    width: 35%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #d4dbdf4e;
+    box-shadow: 0px 1px 10px #4949491d;
+}
+
+.login-section .login-text {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0493bf;
+}
+
+.login-section .login-form {
+    width: 100%;
+    border-radius: 5px;
+    padding: 60px 35px;
+    background-color: #fff;
+}
+
+.login-section .login-form h3 {
+    color: #3c8cc9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-section .login-form .inputs {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-column-gap: 5px;
+    background-color: #f4f4f4;
+}
+
+.login-section .login-form .inputs i {
+    color: #3c8cc9;
+}
+
+.login-section .login-form .input-submit {
+    margin-top: 20px;
+}
+
+.login-section .login-form .input-submit input {
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #3c8cc9
+}
+
+.login-section .login-form input,
+select {
+    border: none;
+    outline: none;
+    background: unset;
+    font-family: "Sulphur Point", serif;
+}
+
+.login-section .forgot-password {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.login-section .forgot-password a {
+    color: #3c8cc9;
+    font-size: 14px;
+}
+
+.login-section .create-account {
+    display: flex;
+    gap: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    justify-content: center;
+    -webkit-column-gap: 4px;
+}
+
+.login-section .create-account a {
+    color: #3c8cc9;
+}
+
+
+/*---------------------------/
+#Media query
+/-------------------------- */
+
+@media screen and (max-width: 1250px) {
+    .login-section .login-content,
+    .login-section .news {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .login-section .login-content,
+    .login-section .news {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .login-section .login-text {
+        padding: 5px 5px;
+    }
+    .login-section {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .login-section .login-content,
+    .login-section .news {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .login-section .login-content,
+    .login-section .news {
+        width: 100%;
+        padding: 8px;
+    }
+    .login-section .login-form {
+        padding: 60px 20px;
+    }
+}
