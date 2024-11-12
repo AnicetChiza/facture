@@ -1,7 +1,7 @@
 document.querySelector('form').addEventListener('submit', function(event){
     event.preventDefault();
 
-    const storedEmail = "anicet@gmail.com";
+    const storedEmail = "gloirecarlos@gmail.com";
     const storedPassword = "12345";
 
     const email = document.querySelector('input[type="email"]').value;
